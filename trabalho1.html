@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculo RGB</title>
+    <link rel="stylesheet" href="trabalho1.css" />
+  </head>
+  <body id="corpo">
+    <div class="bloco">
+      <div class="conteiner">
+        <div><h1>RGB color</h1></div>
+        <form>
+          <table>
+            <div class="lateral">
+              <div>
+                <ul>
+                  <li>R Vermelho</li>
+                  <li>G Verde</li>
+                  <li>B Azul</li>
+                </ul>
+              </div>
+              <div>
+                <ul class="Imput">
+                  <li><input type="range" min="0" max="255" id="Red" /></li>
+                  <li><input type="range" min="0" max="255" id="Gren" /></li>
+                  <li><input type="range" min="0" max="255" id="Blue" /></li>
+                </ul>
+              </div>
+              <div>
+                <ul class="Imput">
+                  <li>
+                    <input
+                      type="texte"
+                      style="width: 30px;"
+                      id="RedBox"
+                      disabled
+                    />
+                  </li>
+                  <li>
+                    <input
+                      type="texte"
+                      style="width: 30px;"
+                      id="GrenBox"
+                      disabled
+                    />
+                  </li>
+                  <li>
+                    <input
+                      type="texte"
+                      style="width: 30px;"
+                      id="BlueBox"
+                      disabled
+                    />
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </table>
+        </form>
+        <div>
+          <canvas
+            id="UgCanvas"
+            width="100"
+            height="100"
+            style="background-color: rgb(128, 128, 128);"
+            style="border-radius: 20%;"
+          >
+          </canvas>
+        </div>
+        <div id="texto">
+          valor
+          
+        </div>
+        <form name="formTexto">
+          <input type="text" name="novoTexto" id="texto" disabled input style="background-color:transparent;" /><br/>
+      </div>
+    </div>
+    <script src="trabalho1.js"></script>
+  </body>
+</html>

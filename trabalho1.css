@@ -1,0 +1,52 @@
+ul.Imput {
+  list-style-type: none;
+}
+ul {
+  padding-inline-start: 10px;
+  color: white;
+}
+div {
+  color: white;
+}
+body {
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(128, 128, 128);
+}
+div.Alinhamento {
+  display: inline-block;
+  text-align: left;
+}
+canvas {
+  border-radius: 50%;
+  border: 2px solid;
+  border-color: white;
+}
+
+div.conteiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border: 9px solid;
+  border-color: rgb(0, 0, 0);
+  background-color: rgb(75, 77, 77);
+  filter: drop-shadow(0 0 4em rgb(0, 0, 0));
+}
+#texto {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+div.bloco {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  margin: 30px;
+}
+div.lateral {
+  display: flex;
+  flex-direction: row;
+}
